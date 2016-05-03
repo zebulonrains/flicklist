@@ -14,7 +14,7 @@ var api = {
   /**
    * Given a movie object, return the url to its poster image
    */
-  posterUrl(movie) {
+  posterUrl: function(movie) {
     // TODO (DONE)
     // implement this function
     var baseImageUrl = "http://image.tmdb.org/t/p/";
